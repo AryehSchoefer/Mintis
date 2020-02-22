@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.form, .loading {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+}

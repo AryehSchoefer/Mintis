@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="client.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Mintis - Messaging Board</h1>
+    </header>
+    <main>
+        <form class="form">
+            <label for="username">Name</label>
+            <input class="u-full-width" type="text" name="username" id="username" required>
+            <label for="message">Message</label>
+            <textarea class="u-full-width" name="message" id="message" required></textarea>
+            <button class="button-primary">Send Message</button>
+        </form>
+        <div class="loading">
+            <img src="loading.gif" alt="loading...">
+        </div>
+    </main>
+</body>
+
+</html>
