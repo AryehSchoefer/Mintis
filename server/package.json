@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "monk": "^7.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
