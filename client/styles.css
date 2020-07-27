@@ -8,6 +8,11 @@ main {
     margin: 2rem 0 2rem 0;
 }
 
+#server-error {
+    color: rgb(255, 22, 22);
+    display: none;
+}
+
 #message {
     resize: none;
 }
