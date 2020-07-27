@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+main {
+    margin: 2rem 0 2rem 0;
+}
+
+#message {
+    resize: none;
+}
+
 .title {
     text-align: center;
     padding: 1rem 0;
@@ -18,3 +26,28 @@
     display: none;
     text-align: center;
 }
+
+.messages {
+    width: 80%;
+    margin: auto;
+}
+
+.username {
+    margin: 0;
+}
+
+.message {
+    background: #F2F2F2;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto auto 2rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-text {
+    margin: 1rem 0 1rem 0;
+}
+
+
