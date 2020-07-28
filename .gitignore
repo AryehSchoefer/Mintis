@@ -1,2 +1,2 @@
-server/node_modules
-server/congfig/config.env
+node_modules
+*.env
